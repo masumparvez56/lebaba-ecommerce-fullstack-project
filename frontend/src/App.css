@@ -97,6 +97,10 @@ nav {
   color: var(--primary-color);
 }
 
+.active {
+  color: #ed3849 !important;
+}
+
 .nav__logo a {
   font-size: 2rem;
   font-weight: 800;
