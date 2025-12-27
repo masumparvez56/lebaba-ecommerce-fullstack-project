@@ -8,10 +8,10 @@ const Navbar = () => {
                 className="max-w-screen-2xl mx-auto px-4 flex justify-between items-center"
             >
                 <ul className="nav__links">
-                    <li className="link"><NavLink className={({isActive, isPending}) => isActive ? "active" : "" } to="/">Home</NavLink></li>
-                    <li className="link"><NavLink className={({isActive, isPending}) => isActive ? "active" : "" } to="/shop">Shop</NavLink></li>
-                    <li className="link"><NavLink className={({isActive, isPending}) => isActive ? "active" : "" } to="/pages">Pages</NavLink></li>
-                    <li className="link"><NavLink className={({isActive, isPending}) => isActive ? "active" : "" } to="/contact">Contact</NavLink></li>
+                    <li className="link"><NavLink className={({ isActive, isPending }) => isActive ? "active" : ""} to="/">Home</NavLink></li>
+                    <li className="link"><NavLink className={({ isActive, isPending }) => isActive ? "active" : ""} to="/shop">Shop</NavLink></li>
+                    <li className="link"><NavLink className={({ isActive, isPending }) => isActive ? "active" : ""} to="/pages">Pages</NavLink></li>
+                    <li className="link"><NavLink className={({ isActive, isPending }) => isActive ? "active" : ""} to="/contact">Contact</NavLink></li>
                 </ul>
                 <div className="nav__logo">
                     <Link to="/">Lebaba<span>.</span></Link>
@@ -26,7 +26,7 @@ const Navbar = () => {
                         </button>
                     </span>
                     <span>
-                        <i className="ri-user-line rounded-full cursor-pointer"></i>
+                        <Link to="/login"><i className="ri-user-line rounded-full cursor-pointer"></i></Link>
                     </span>
                 </div>
             </nav>
