@@ -1,0 +1,18 @@
+Step-1: create a user model
+
+1. username
+2. email
+3. password
+4. profileImage
+5. bio
+6. profession
+7. role
+___________
+
+Step-2: create routes for user
+
+1. Get Method: Get get info from DB
+2. Post Method: Post info from client to DB
+3. Put/Patch Method: Update or Edite info
+4. Delete Method: Delete info from DB
+___________
